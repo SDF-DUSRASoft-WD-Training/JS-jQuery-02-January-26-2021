@@ -1,0 +1,24 @@
+/* Design */
+
+*{
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+}
+
+/*
+.sub-menu:hover .dropdown{
+    display: block;
+}
+*/
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
